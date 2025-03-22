@@ -25,7 +25,12 @@
 .hamberg{
     display: none;
 }
-
+.navlinks{
+    cursor: pointer;
+}
+.navlinks ul li:hover{
+    font-weight: 600;
+}
 @media (max-width: 640px) {
     .navlinks-container{
         display: none;

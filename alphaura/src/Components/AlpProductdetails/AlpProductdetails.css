@@ -182,7 +182,7 @@ input[type="radio"]:checked {
     background-color: #000;
 }
 .videotestinomials-head{
-    margin: 0;
+    margin: 0; 
     font-size: 45px;
     margin-bottom: 100px;
     color: var( --dark-theme);
@@ -220,7 +220,7 @@ input[type="radio"]:checked {
     margin-left: 20px;
  }
  .productdetails-sub-top .option-content div{
-  margin-top: 10px;
+  margin-top: 22px;
  }
 
 

@@ -45,6 +45,7 @@
     width: 88px;
     font-weight: 700;
     font-size: 17px;
+    cursor: pointer;
 }
 
 .alp-footer-website{
@@ -68,7 +69,9 @@
 .wbshop{
     display: flex;
 }
-
+.wbshop ul li{
+    cursor: pointer;
+}
 /* res */
 @media (max-width: 640px) {
     .alp-footer .community-head h5{
