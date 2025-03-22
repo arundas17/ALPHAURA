@@ -1,0 +1,98 @@
+.alpbloosom{
+    background-color: var(--bloosom);
+    padding: 60px 0 0;
+}
+.alpbloosomhead h2{
+    margin: 0;
+    font-size: 45px;
+    margin-bottom: 100px;
+    color: #fff;
+}
+.alpbloosomhead h2 span{
+    color: var(--primary-color);
+    text-transform: uppercase;
+
+}
+.alpbloosomreasonbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.alpbloosomreasonboxleft{
+    width: 38%;
+}
+.alpbloosomreasonboxright{
+    width: 38%;
+}
+.alpbloosomreasonbox-item{
+    background-color: var(--bloosombox);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+    
+}
+.alpbloosomreasonbox-item img{
+    padding-right: 10px;
+}
+.alpbloosomreasonbox-item span{
+    color: var(--primary-color);
+}
+.blosomhand img{
+    height: 430px;
+}
+.alpbloosomattach{
+    display: flex;
+    height: 45px;
+    justify-content: space-evenly;
+    width: 45%;
+    margin: 0 auto;
+}
+.alpbloosomattach div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alpbloosomattach span{
+    color: var(--primary-color);
+    font-weight: 700;
+}
+.alpbloosomattach img{
+    margin-right: 8px;
+}
+
+    
+
+
+
+/* res */
+
+@media (max-width: 640px) {
+    .alpbloosom{
+        padding: 20px 0 30px;
+    }
+    .alpbloosomreasonbox{
+        flex-direction: column;
+    }
+    .alpbloosomhead h2 {
+        font-size: 35px;
+        margin: 0 0 30px;
+    }
+    .alpbloosomreasonbox-item {
+        margin-bottom: 10px;
+    }
+    .alpbloosomreasonboxleft {
+        width: 100%;
+    }
+
+    .alpbloosomreasonboxright{
+        width: 100%;
+    }
+    .blosomhand{
+        display: none;
+    }
+    .alpbloosomattach{
+        display: none;
+    }
+}
+

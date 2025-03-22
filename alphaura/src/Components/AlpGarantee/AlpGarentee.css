@@ -1,0 +1,82 @@
+.garentee{
+    margin: 60px 0 100px;
+}
+.garentee-wrapper{
+    border: 1px solid var(--primary-color);
+    width: 40%;
+    padding: 18px 5%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.garentee-wrapper .subhead{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: var(--primaryfaded);
+    color: var(--primary-color);
+    width: 120px;
+    display: block;
+    margin: 0 auto 14px;
+    padding: 3px;
+    border-radius: 10px;
+    text-transform: uppercase;
+
+}
+.garentee-wrapper .subhead span{
+    font-size: 11px;
+    font-weight: 600;
+}
+.garentee-wrapper h4{
+    font-size: 34px;
+    text-transform: uppercase;
+    width: 64%;
+    text-align: center;
+    margin: 0 auto;
+}
+.garentee-badge {
+    text-align: center;
+}
+.garentee-badge img{
+   width: 130px;
+}
+.garentee-wrapper .paragraph{
+    width: 68%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+.garentee-wrapper .alpshopnow-btn{
+    margin: 0 auto;
+}
+.garentee-wrapper .rating{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    justify-content: center;
+}
+.garentee-wrapper .ratecount{
+    color: var(--primary-color);
+}
+.garentee-wrapper .stars img{
+    width: 10px;
+}
+
+
+/* res */
+@media (max-width: 640px) {
+    .garentee-container{
+        padding: 20px;
+    }
+    .garentee-wrapper h4{
+        font-size: 30px;
+        width: 100%;
+    }
+    .garentee-wrapper .paragraph{
+        padding-bottom: 10px;
+    }
+    .garentee-wrapper {
+        width: auto;
+        padding:8px;
+    }
+    
+}

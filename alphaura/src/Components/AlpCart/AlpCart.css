@@ -1,0 +1,97 @@
+.carthub {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    padding: 2% 22%;
+    width: 100%;
+  }
+/* Desktop View: 2 Columns */
+.Alp-cart-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between columns */
+    align-items: start;
+  }
+  
+  /* Default order for desktop */
+  .carthub > *:nth-child(1) { order: 1; } 
+  .carthub > *:nth-child(2) { order: 3; } 
+  .carthub > *:nth-child(3) { order: 2; } 
+  .carthub > *:nth-child(4) { order: 4; } 
+  
+  
+  @media (max-width: 768px) {
+    .carthub > *:nth-child(1) { order: 1; } 
+    .carthub > *:nth-child(3) { order: 2; } 
+    .carthub > *:nth-child(2) { order: 3; } 
+    .carthub > *:nth-child(4) { order: 4; } 
+    .carthub {
+        padding: 0 !important;
+    }
+    .Alp-cart-wrapper {
+        grid-template-columns: 1fr !important; 
+      }
+      .carthub{
+        display: flex !important;
+        flex-direction: column !important;
+      }
+      .product-detailswrapper {
+        padding: 0 10px !important;
+        border-radius: 10px !important;
+    }
+    .cartimageSection-container img.mainimage{
+             width: 100% !important;
+             margin: 20px auto !important;
+    }
+    .productdetails h4 {
+        font-size: 28px !important;
+        margin: 0 !important;
+        width: 100% !important;
+        margin-bottom: 30px !important;
+    }
+    .productdetails-ratings .stars img{
+        width: 14px !important;
+    }
+    .productdetails-sub-top .option-box {
+        width: 164px !important;
+    }
+    .product-details-main {
+        width: 350px !important;
+        margin: 0 auto;
+    }
+    .cartimageSection-container{
+        padding: 10px !important;
+    }
+    .alpoffercards{
+        margin-top: 0 !important;
+    }
+    .display-offer .card {
+        width: 71px !important;
+        height: 70px !important;
+    }
+    .offercardscontainer {
+        width: 360px !important;
+        margin: 0 auto !important;
+    }
+    .productdetails-sub-top .option-content .option-label{
+      font-size: 11px;
+    }
+
+    .save {
+        margin-left: 28px !important;
+    }
+    .option-label {
+        font-weight: bold;
+        font-size: 12px !important;
+    }
+    .product-details-addtocart.alpshopnow-btn {
+        width: 320px !important;
+        padding: 16px 10px !important;
+        margin: 9px auto !important;
+    }
+    .offeritems p{
+        font-size: 11px !important;
+        width: 100%;
+    }
+  }
+  

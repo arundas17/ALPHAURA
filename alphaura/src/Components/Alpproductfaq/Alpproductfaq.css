@@ -1,0 +1,36 @@
+.product-faq .alp-faq-items{
+    width: 428px;
+    margin: 4px 0;
+    padding: 14px;
+    border-radius: 0;
+    border-top: 1px solid grey;
+}
+.product-faq .alp-faq{
+    background-color: transparent;
+}
+
+.product-faq .alp-faq-items-question {
+    justify-content: flex-start;
+    font-family: 18px;
+}
+.product-faq .alp-faq-items-question-answer.show {
+    min-height: 92px;
+}
+.product-faq .alp-faq-items-question img {
+    position: absolute;
+    top: 6px;
+    right: 16px;
+    width: 11px;
+    height: 12px;
+}
+
+.product-faq  .alp-faqcontainer {
+    padding: 20px 0 20px;
+}
+
+@media (max-width: 640px) {
+    .product-faq .alp-faq-items{
+        width: 350px;
+        margin: 4px auto;
+    }
+}

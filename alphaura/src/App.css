@@ -1,0 +1,79 @@
+:root{
+  --primary-color:#D13CA0;
+  --heading-color:#132742;
+  --dark-theme:#000000;
+  --whitefotdark:#fff;
+  --bannerpara:#948c91;
+  --bloosom:#151020;
+  --bloosombox:rgba(209, 60, 160, 0.12);
+  --primaryfaded:#fae8f4;
+  --testinomialsbg:#F8F8F8;
+ --ingreediantsbg: rgba(28, 21, 25, 0.02);
+ --border-dashed:#7C7C7C;
+ --swiper-theme-color:#df3fa9 !important;
+ --cartsave:rgba(209, 60, 160, 0.1);
+}
+
+/* fonts */
+@import '@fontsource/red-hat-display';
+
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+section{
+  padding: 50px 0;
+}
+a{
+  text-decoration: none !;
+  color: unset;
+}
+a:hover{
+  color: unset;
+}
+link{
+  color: unset;
+}
+link:hover{
+  color: unset;
+} 
+ul{
+  margin: 0;
+  padding: 0;
+} 
+h3{
+  font-size: 46px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--whitefotdark);
+  padding-top: 60px;
+  margin: 0px 10px 55px;
+}
+.container{
+  padding: 0 50px
+}
+.main-wrapper{
+  padding: 0 70px;
+}
+.cartandhqcontainer{
+  margin: 0 100px;
+}
+.section-title{
+  color: var(--primary-color);
+  font-weight: 700;
+}
+.alpshopnow-btn{
+  color: var(--whitefotdark);
+  background-color: var(--primary-color);
+  width: 275px;
+  padding: 14px 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+

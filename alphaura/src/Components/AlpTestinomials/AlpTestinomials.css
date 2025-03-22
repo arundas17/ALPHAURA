@@ -1,0 +1,115 @@
+.tetinomials{
+    background-color: var(--testinomialsbg);
+}
+.testinomials-conrtainer{
+    padding: 10px 0 40px;
+}
+.tetinomials-carditems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 280px;
+    background: var(--whitefotdark);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 10px
+}
+.tetinomials-carditems .mainimage{
+    width: 280px;
+}
+.tetinomials-carditems .starts{
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.tetinomials-carditems h5{
+    margin: 10px auto;
+    font-size: 18px;
+    font-weight: 700;
+}
+.tetinomials-carditems .desc{
+    font-size: 13px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 4px;
+    }
+
+.tetinomials-carditems .client-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    }
+.tetinomials-carditems .name{
+    font-size: 14px;
+    font-weight: 600;
+} 
+.tetinomials-carditems .verification{
+    display: flex;
+}
+.tetinomials-carditems .verification img{
+    width: 14px;
+    margin-right: 10px
+}
+.tetinomials-carditems .verification .verificationtext{
+    font-size: 13px;
+    font-weight: 600;
+}
+.swiper-button-prev{
+    display: none;
+  }
+.swiper-button-next{
+    display: none;
+}
+.tetinomials h3{
+    width: 35%;
+    margin: 20px auto;
+    color: #000;
+}
+.tetinomials .alpshopnow-btn{
+    margin: 16px auto;
+}
+.testinomial-attach div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 9px;
+    font-weight: 600;
+    
+}
+.testinomial-attach{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testinomial-attach img{
+    margin-right: 12px;
+    width: 19px;
+}
+.testinomial-attach span{
+    font-size: 12px;
+}
+
+
+@media (max-width: 640px) {
+   
+    
+    .tetinomials-carditems{
+    margin: 0 auto;
+   
+    }
+    .tetinomials h3 {
+        width: 80%;
+        font-size: 34px;
+    }
+    .testinomials-conrtainer .alpshopnow-btn{
+        margin: 10px auto;
+    }
+
+
+    
+   
+   
+}
+

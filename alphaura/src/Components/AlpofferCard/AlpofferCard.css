@@ -1,0 +1,54 @@
+.alpoffercards{
+    margin-top: -215px;
+}
+.display-offer{
+   display: flex;
+}
+.offercardscontainer{
+    width: 500px;
+}
+.offercardscontainer h4{
+    font-size: 18px;
+}
+.offercardscontainer span{
+    color: var(--primary-color);
+}
+.offeritems{
+    width: 98px;
+    margin-right: 20px;
+}
+
+.offeritems p{
+    font-size: 12px;
+    font-weight: 700;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+}
+.display-offer .card{
+    width: 98px;
+    height: 98px;
+    margin-bottom: 15px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.primary-active{
+    border: 2px dashed var(--primary-color)
+}
+.dashed{
+    border: 2px dashed var( --border-dashed)
+}
+   
+.parsel img{
+    width: 42px;
+    height: 40px;
+}
+
+.lock img{
+    width: 30px;
+    height: 30px;
+}

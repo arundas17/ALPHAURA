@@ -1,0 +1,99 @@
+.alp-footer{
+    background-color: var(--primary-color);
+    color: var(  --whitefotdark);
+}
+.alp-footercontainer{
+    padding: 75px 110px;
+    display: flex;
+    justify-content: flex-start;
+}
+.alp-footer .community-head h5{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-weight: 800;
+}
+
+.community-desc{
+    width: 60%;
+    font-size: 16px;
+}
+.community-form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.community-form input{
+    border: none;
+    outline: none;
+    color: var(--primary-color);
+    padding: 15px;
+    background: var(--whitefotdark);
+    border-radius: 7px;
+    width: 231px;
+    /* font-weight: 700; */
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+
+.community-form button{
+    color: var(--primary-color);
+    padding: 12px;
+    background: var(--whitefotdark);
+    border: none;
+    border-radius: 7px;
+    width: 88px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.alp-footer-website{
+    margin-right: 110px;
+}
+.alp-footer-website-head{
+    font-size: 18px;
+    font-weight: 700;
+}
+.alp-footer-shop-head{
+    font-size: 18px;
+    font-weight: 700;
+}
+.alp-footercontainer li{
+    list-style: none;
+    margin-top: 15px;
+}
+.social-media-links img{
+    margin-right: 10px;
+}
+.wbshop{
+    display: flex;
+}
+
+/* res */
+@media (max-width: 640px) {
+    .alp-footer .community-head h5{
+        font-size: 24px;
+    }
+    .alp-footercontainer{
+        padding: 40px 30px;
+        flex-direction: column;
+    }
+    .community-form{
+        display: flex
+
+    }
+    .wbshop{
+        display: flex;
+    }
+    .alp-footer-website {
+        margin-right: 40px;
+        margin-top: 20px;
+    }
+    .alp-footer-shop {
+        margin-top: 20px;
+    }
+    .social-media-links img{
+        width: 28px;
+    }
+
+}

@@ -1,0 +1,47 @@
+.Alp-Navbar .brand{
+    width: 170px;
+}
+.Alp-Navbar .brand img{
+    width: 100%;
+    margin-left: -100px;
+}
+.Alp-navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.Alp-navbar-container .active{
+    font-weight: 700;
+}
+.navlinks-container{
+    display: flex;
+}
+.navlinks-container li{
+    list-style: none;
+    padding-right: 38px;
+}
+.hamberg{
+    display: none;
+}
+
+@media (max-width: 640px) {
+    .navlinks-container{
+        display: none;
+    }
+    .Alp-Navbar{
+        padding: 0 10px;
+    }
+    .Alp-Navbar .brand img{
+        margin-left: 0;
+    }
+    .hamberg{
+        display: block;
+       
+    }
+    .hamberg img{
+        width: 22px;
+    }
+
+}

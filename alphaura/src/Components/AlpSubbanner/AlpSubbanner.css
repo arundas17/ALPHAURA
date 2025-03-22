@@ -1,0 +1,96 @@
+.subbanner{
+    position: relative;
+    padding: 30px 0;
+}
+.subbanner-mainhead h2{
+    margin: 0;
+    font-size: 45px;
+    width: 65%;
+}
+.subbanner-wrapper{
+    display: flex;
+}
+.subbanner-mainhead{
+    width: 70%;
+    position: relative;
+}
+.subbanner-display img{
+    position: absolute;
+    top: 2px;
+    left: -8px;
+}
+.subbannerpointesitems{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.subbanerpoints{
+    margin: 40px 0
+}
+.subbannerpointesitemsimage{
+    width: 65px;
+    margin-right: 20px;
+}
+.subbannerpointesitems h5{
+    font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.subbannerpointesitems p{
+    font-size: 20px;
+    margin: 4px;
+}
+.subbanner-leafesanddrop{
+    position: absolute;
+    right: 0;
+    bottom: -112px;
+}
+
+@media (max-width: 640px) {
+
+    .main-wrapper {
+        padding: 0 10px;
+    }
+    .subbanner-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .subbanner-mainhead h2{
+        font-size: 34px;
+    }
+    .subbanner-mainhead{
+        width: 100%;
+    }
+    .subbanner-display{
+        margin-bottom: 160px;
+    }
+    .subbanner-leafesanddrop img{
+        width: 174px;
+    }
+    .subbanner-leafesanddrop{
+        position: absolute;
+        right: 0;
+        bottom: -46px;
+    }
+    .subbanner-display img {
+        position: absolute;
+        top: 79px;
+        left: -8px;
+        width: 212px;
+    }
+    .subbanner-mainhead h2{
+         width: 100%;   
+    }
+    .subbannerpointesitems h5{
+        font-size: 18px;
+        margin: 0;
+    }
+    .subbannerpointesitemsimage {
+        width: 50px;
+    }
+   
+    
+  }
+  
+

@@ -1,0 +1,229 @@
+.productdetails-ratings{
+    display: flex;
+    align-items: center;
+}
+.productdetails h4{
+    font-size: 38px;
+    margin: 0;
+    width: 80%;
+}
+.speciality-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.speciality-item img{
+    margin-right: 10px;
+}
+.speciality-item span{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+.productdetails {
+    max-width: 482px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+  
+.product-detailswrapper {
+    padding: 0 20px;
+    border-radius: 10px;
+}
+  
+ .stars img {
+    width: 20px;
+  }
+  
+ .ratecount {
+    font-weight: bold;
+  }
+  
+.reviews {
+    color: #777;
+  }
+.product-details-main{
+    border: 1px solid var(--primary-color);
+  }
+
+  
+.productdetails h4 {
+    font-size: 33px;
+    margin: 0;
+    width: 88%;
+    margin-bottom: 30px;
+}
+  
+.options {
+  display: flex;
+    flex-direction: column;
+  }
+  
+.option-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #e5e5e5;
+    margin: 5px 0;
+    cursor: pointer;
+    position: relative;
+  }
+  
+.option-box input {
+    margin-right: 10px;
+  }
+  
+.option-content {
+    display: flex;
+    flex-direction: row;
+}
+  
+.option-label {
+    font-weight: bold;
+  }
+  
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 14px;
+  }
+  
+.save {
+    background: var(--cartsave);
+    color: var(--primary-color);
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-left: 65px;
+  }
+  .selected .save{
+    background-color: var(--primary-color);
+    color: var(--whitefotdark);
+  }
+.new-price {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+.selected {
+    background-color: rgba(209, 60, 160, 0.05);
+    border: 1px solid var(--primary-color);
+  }
+  
+  .productdetails-sub-top .selected {
+    background-color: var(--primary-color);
+    color: var(--whitefotdark);
+  }
+.checkboxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 34px;
+  }
+  
+
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+.checkboxes img{
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 600;
+}
+  
+.productdetails-sub-top {
+    display: flex;
+  }
+.option-content{
+    display: flex;
+  }
+.productdetails-sub-top .option-box {
+    width: 200px;
+    height: 50px;
+    margin: 0;
+    border: none;
+}
+.splsuboption .option-box {
+    padding: 18px;
+  }
+  .splsuboption  .option-box .selected{
+    border: 2px solid  var(--primary-color);
+  }
+  .splsuboption {
+    padding: 20px;
+  }
+  
+.price{
+    display: flex;
+    flex-direction: column;
+  }
+.productdetails-speciality{
+     margin-bottom: 30px;
+  }
+.product-details-addtocart.alpshopnow-btn{
+    width: 420px;
+    padding: 20px 10px;
+  }
+  input[type="radio"] {
+    
+    width: 16px;
+    height: 16px;
+    border: 2px solid #999;
+    border-radius: 50%;
+    background-color: #fff;
+}
+input[type="radio"]:checked {
+    border-color: #fff; 
+    padding: 2px;
+    background-color: #000;
+}
+.videotestinomials-head{
+    margin: 0;
+    font-size: 45px;
+    margin-bottom: 100px;
+    color: var( --dark-theme);
+}
+input[type="radio"]:checked {
+  background-color: black !important;
+  border-color: black !important;
+  accent-color: black !important; 
+}
+.productdetails-sub-top .option-box:first-child .price{
+  margin-left: 20px;
+}
+.option-box:first-child .price {
+    margin-left: 100px;
+ }
+ .product-price-highlighted .price{
+   flex-direction: row;
+   margin-bottom: 20px;
+   align-items: center;
+ }
+ .product-price-highlighted .old-price{
+  font-size: 22px;
+ }
+ .product-price-highlighted .new-price{
+  font-size: 22px;
+ }
+ .product-price-highlighted .save{
+  font-size: 14px;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px;
+    width: 96px;
+    text-align: center;
+    border-radius: 0 !important;
+    margin-left: 20px;
+ }
+ .productdetails-sub-top .option-content div{
+  margin-top: 10px;
+ }
+
+
+
+  
+  

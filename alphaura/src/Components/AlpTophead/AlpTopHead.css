@@ -1,0 +1,9 @@
+.Alp-tophead{
+    color: var( --whitefotdark);
+    background-color: var( --dark-theme);
+    padding: 2px;
+}
+.Alp-tophead p{
+    text-align: center;
+    font-size: 14px;
+}
